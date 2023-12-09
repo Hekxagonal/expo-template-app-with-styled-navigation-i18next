@@ -1,0 +1,61 @@
+{
+  "common": {
+    "user": "User",
+    "password": "Password"
+  },
+  "labels": {
+    "name": "Name"
+  },
+  "form": {
+    "requiredField": "Required field"
+  },
+  "actions": {
+    "search": "Search",
+    "save": "Save",
+    "back_page": "Back",
+    "try_again": "Try Again",
+    "close": "Close",
+    "filter": "Filtrar",
+    "cancel": "Cancel",
+    "sync": "Synchronize",
+    "edit": "Edit",
+    "delete": "Delete",
+    "sign": "Sign",
+    "view": "View",
+    "approve_all": "Approve All",
+    "reproach_all": "Reproach All",
+    "select_all": "Select All",
+    "approve": "Approve",
+    "reprove": "Reject",
+    "confirm": "Confirm",
+    "execute": "Execute",
+    "seeMoreInfo": "See More Info",
+    "hide": "Hide",
+    "selectDate": "Select Date",
+    "selectFile": "Select File",
+    "selectedFiles": "selected files",
+    "inspect": "Inspect",
+    "reset": "Reset"
+  },
+  "errors": {
+    "title": {
+      "INVALID_FIELDS": "Invalid Fields",
+      "UNAUTHORIZED": "Access Denied!",
+      "UNCONNECTED": "Unconnected!",
+      "UNKNOWN_ERROR": "UNKNOWN ERROR",
+      "ECONNABORTED": "Connection Aborted"
+    },
+    "INVALID_FIELDS-USER_PASSWORD": "Invalid username or password!",
+    "INVALID_FIELDS-USER": "Invalid User!",
+    "INVALID_FIELDS-REQUIRED": "Fill in the required fields!",
+
+    "UNAUTHORIZED-USER": "Unauthorized user, contact support team",
+    "UNAUTHORIZED-KEY": "Expired Access Key!",
+
+    "UNCONNECTED": "Verify your Connection",
+    "UNCONNECTED-SERVER-UNREACHABLE": "SERVER-UNREACHABLE",
+    "UNCONNECTED-INTERNAL_SERVER_ERROR": "Internal Server Error, contact support team",
+    "UNKNOWN_ERROR": "Unknown Error, contact support team",
+    "ECONNABORTED": "Timeout Exceeded"
+  }
+}

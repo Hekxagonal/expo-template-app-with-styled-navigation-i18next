@@ -1,0 +1,62 @@
+{
+  "common": {
+    "user": "Usuário",
+    "password": "Senha"
+  },
+  "labels": {
+    "name": "Nome"
+  },
+  "form": {
+    "requiredField": "Campo Obrigatório"
+  },
+  "actions": {
+    "search": "Pesquisar",
+    "save": "Salvar",
+    "back_page": "Voltar",
+    "try_again": "Tentar Novamente",
+    "close": "Fechar",
+    "filter": "Filtrar",
+    "cancel": "Cancelar",
+    "sync": "Sincronizar",
+    "edit": "Editar",
+    "delete": "Descartar",
+    "sign": "Assinar",
+    "view": "Visualizar",
+    "approve_all": "Aprovar Tudo",
+    "reproach_all": "Reprovar Tudo",
+    "select_all": "Selecionar Tudo",
+    "approve": "Aprovar",
+    "reprove": "Reprovar",
+    "confirm": "Confirmar",
+    "execute": "Executar",
+    "seeMoreInfo": "Ver mais informações",
+    "hide": "Ocultar",
+    "selectDate": "Selecione uma Data",
+    "selectFile": "Selecione um arquivo",
+    "selectedFiles": "arquivos selecionados",
+    "type": "Tipo",
+    "inspect": "Inspecionar",
+    "reset": "Redefinir"
+  },
+  "errors": {
+    "title": {
+      "INVALID_FIELDS": "Campos Inválidos!",
+      "UNAUTHORIZED": "Acesso Negado!",
+      "UNCONNECTED": "Sem Conexão!",
+      "UNKNOWN_ERROR": "ERRO DESCONHECIDO",
+      "ECONNABORTED": "Conexão Abortada"
+    },
+    "INVALID_FIELDS-USER_PASSWORD": "Nome de usuário ou senha invalida!",
+    "INVALID_FIELDS-USER": "Usuário Invalido!",
+    "INVALID_FIELDS-REQUIRED": "Preencha os campos obrigatórios!",
+
+    "UNAUTHORIZED-USER": "Usuário não autorizado, contate a equipe de TI",
+    "UNAUTHORIZED-KEY": "Chave de Acesso Expirada!",
+
+    "UNCONNECTED": "Verifique sua Conexão de Internet",
+    "UNCONNECTED-SERVER-UNREACHABLE": "Servidor Inalcançável",
+    "UNCONNECTED-INTERNAL_SERVER_ERROR": "Erro interno do servidor, contate a equipe de TI",
+    "UNKNOWN_ERROR": "Erro desconhecido, contate a equipe de TI",
+    "ECONNABORTED": "Tempo Limite Excedido"
+  }
+}
