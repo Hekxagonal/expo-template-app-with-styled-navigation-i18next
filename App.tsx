@@ -14,13 +14,13 @@ SplashScreen.preventAutoHideAsync();
 export default function App() {
   const [isReady, setIsReady] = useState(false);
   const loadFonts = useCallback(async () => {
-    await Font.loadAsync({
-      "Montserrat-light": require("./src/assets/fonts/Montserrat-Light.ttf"),
-      "Montserrat-medium": require("./src/assets/fonts/Montserrat-Medium.ttf"),
-      "Montserrat-regular": require("./src/assets/fonts/Montserrat-Regular.ttf"),
-      "Montserrat-semibold": require("./src/assets/fonts/Montserrat-SemiBold.ttf"),
-      "Montserrat-thin": require("./src/assets/fonts/Montserrat-Thin.ttf")
-    });
+    // await Font.loadAsync({
+    //   "Montserrat-light": require("./src/assets/fonts/Montserrat-Light.ttf"),
+    //   "Montserrat-medium": require("./src/assets/fonts/Montserrat-Medium.ttf"),
+    //   "Montserrat-regular": require("./src/assets/fonts/Montserrat-Regular.ttf"),
+    //   "Montserrat-semibold": require("./src/assets/fonts/Montserrat-SemiBold.ttf"),
+    //   "Montserrat-thin": require("./src/assets/fonts/Montserrat-Thin.ttf")
+    // });
     await SplashScreen.hideAsync();
     setIsReady(true);
   }, []);
